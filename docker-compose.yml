@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: react-ros-robot-c
+    image: react-ros-robot-i
+    build:
+      context: .
+    ports:
+      - 3000:80
